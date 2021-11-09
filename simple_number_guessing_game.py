@@ -1,5 +1,6 @@
-min = int(input("Choose a minimum number:"))
-max = int(input("Choose a maximum number:"))
+import time
+min = int(input("Choose a minimum int number:"))
+max = int(input("Choose a maximum int number:"))
 
 
 import random
@@ -18,3 +19,4 @@ while gnum != tnum:
   
   
 print("Well done. You got it in {} tries!".format(count))
+time.sleep(5)

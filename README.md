@@ -13,8 +13,9 @@ remains" where x is the remained guess number. When x is 0, it prints "all try a
 
 For that written in python, make sure python 3 (3.7 tested) is installed first. Then open it. It will first ask for minimum then maximum int number input respectively. 
 Then it will randomly generate an int number between them and themselves. After that, the user can guess it by inputting int. If the guess is wrong, it will print "Your 
-guess is too big!" or "Your guess is too small!" depending on the guessed number is smaller or bigger than the generated number respectively, then ask again for input. 
-If the guess is correct, "Well done. You got it in n tries!" will be printed, then it will sleep for 5 seconds and exit itself where the n is the total time tried. 
+guess is too big!" or "Your guess is too small!" depending on the guessed number is smaller or bigger than the generated number respectively, then ask again for the 
+input. If the guess is correct, "Well done. You got it in n tries!" will be printed, then it will sleep for 5 seconds and exit itself, where the n is the total number of 
+guess tried. 
 
 <br /><br />
 Have fun!
